@@ -1,7 +1,7 @@
 # Community
 Repository for discussions and decisions about outreach to the PURL/VERS community.
 The topics include:
--calendars
+- calendars
 - mailing lists
 - messaging platforms
 - meetings
