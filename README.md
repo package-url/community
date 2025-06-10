@@ -1,5 +1,5 @@
 # Community
-Repository for discussions and decisions about outreach to the PURL/VERS community.
+Repository for discussions and decisions about outreach to the PURL and VERS communities.
 The topics include:
 - calendars
 - mailing lists
