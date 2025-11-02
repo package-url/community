@@ -4,7 +4,7 @@ This document provides guidance for writing documentation for Package-URL
 projects. It specifically applies to documentation for:
 - The PURL specification from `package-url/purl-spec`,
 - The VERS specification from `package-url/vers-spec` and
-- The Package-URL website from `packag-url/packageurl.org`.
+- The Package-URL website from `package-url/packageurl.org`.
 
 The style guide is also recommended for documentation for any other project 
 under the `package-url` GitHub organization, but not mandatory.
@@ -74,33 +74,35 @@ labels, and captions.
 
 ## Diction
 
-When possible, avoid using -ing verb forms as the first word in any heading or  title. An -ing verb form is a present participle or gerund. These verb forms
-are inconsistently translated when they're used as the first word in a title,
-and they increase character count in limited spaces.
-
-- Avoid unnecessary adjective or adverbs
-- A vs the vs nothing
-- GB English for Ecma standard documents
-
+- When possible, avoid using -ing verb forms as the first word in any heading 
+or  title. An -ing verb form is a present participle or gerund. These verb 
+forms are inconsistently translated when they're used as the first word in a title, and they increase character count in limited spaces.
+- Avoid unnecessary adjectives or adverbs
+- Articles:
+   - Use “a” or “an” with a singular-count noun when you mean “one of many,” “any,” or “in general.” Example: I like a good movie (one of many movies).
+   - Use “the” with any noun when the meaning is specific; for example, when 
+   the noun names the only one (or one) of a kind. Example: New York is the largest city in the United States (only one city can be “the largest”).
+   - Don’t use “a,” “an,” or “the” with a noun when you mean “any,” “in 
+   general.” Example: He gave me information (not specific).
+- Use GB English for any text that is part of the Ecma standard documentation
+for PURL or VERS. 
+- Use Oxford commas,
+- Spelling:
+   - Use artefact instead of artifact
+   - Use behaviour instead of behavior
+   - Refer to "#" as hash sign, not number sign
 
 ### Line length
 Limit lines in a markdown file to 78 character lines to facilitate more 
 accurate change tracking
 
-
 ### Code style
 - When to use code style (or not)
-
 
 ## URL references
 - How to refer to URLs - many options
 
-
 ## Ecma / ECMA
-from the Ecma directives
-The text of a document may be sub-divided in clauses, which may again be sub-divided. It is recommended that the number of levels does not exceed 3, 
-even if the text processing templates developed in Ecma allow for a maximum 
-of 5 levels.
 
 ### Terminology
 - ECMA is an acronym for the European Computer Manufacturers Association. 
@@ -109,13 +111,10 @@ ECMA was renamed to Ecma International in 1994.
 - Use Ecma International when referring to the organization specifically.
 - Use Ecma for most references, such as "Ecma standard" or "Ecma Technical 
 Committee".
-- Use ECMa only for referring to a standard document such as ECMA-424 for 
+- Use ECMA only for referring to a standards document such as ECMA-424 for 
 CycloneDX.
 
-### GB English
-The following conventions apply to any text that is part of the Ecma standard
-for PURL or VERS. 
-- Use Oxford commas,
-- Spelling:
-   - behaviour
-   - 
+### Ecma document formatting
+The text of a document may be sub-divided in clauses, which may again be sub-divided. It is recommended that the number of levels does not exceed 3, 
+even if the text processing templates developed in Ecma allow for a maximum 
+of 5 levels.
