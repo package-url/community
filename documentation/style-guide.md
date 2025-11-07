@@ -9,7 +9,7 @@ projects. It specifically applies to documentation for:
 The style guide is also recommended for documentation for any other project 
 under the `package-url` GitHub organization, but not mandatory.
 
-## Package-URL Terminology
+## Package-URL terminology
 There is some terminology that we need to standardize for documentation, the 
 website and comments in code. The current list is:
 
@@ -34,6 +34,14 @@ PURL (first edition submitted to ECMA for December 2025 approval) or VERS
    - Use **specification** to refer to the broader set of information about 
  PURL or VERS, such as the test schemas and test files. Over time, many
  elements of the specifications will be added to the standards
+
+## Other terminology
+
+### Package names
+- Use “npm package”, not “NPM”, because since “npm” is the package manager,
+not the name of a package. 
+- Use "Ruby gems" not RubyGems” because RubyGems is the name of a package
+distribution service, not the name of a package
 
 ## Active voice
 
