@@ -82,27 +82,41 @@ labels, and captions.
 
 ## Diction
 
+### General
 - When possible, avoid using -ing verb forms as the first word in any heading 
 or  title. An -ing verb form is a present participle or gerund. These verb 
-forms are inconsistently translated when they're used as the first word in a title, and they increase character count in limited spaces.
+forms are inconsistently translated when they're used as the first word in a 
+title, and they increase character count in limited spaces.
 - Avoid unnecessary adjectives or adverbs
 - Articles:
-   - Use “a” or “an” with a singular-count noun when you mean “one of many,” “any,” or “in general.” Example: I like a good movie (one of many movies).
+   - Use “a” or “an” with a singular-count noun when you mean “one of many,” 
+   “any,” or “in general.” Example: I like a good movie (one of many movies).
    - Use “the” with any noun when the meaning is specific; for example, when 
-   the noun names the only one (or one) of a kind. Example: New York is the largest city in the United States (only one city can be “the largest”).
+   the noun names the only one (or one) of a kind. Example: New York is the 
+   largest city in the United States (only one city can be “the largest”).
    - Don’t use “a,” “an,” or “the” with a noun when you mean “any,” “in 
    general.” Example: He gave me information (not specific).
+
+### Standard / specification text  
 - Use GB English for any text that is part of the Ecma standard documentation
 for PURL or VERS. 
-- Use Oxford commas,
+- Use Oxford commas.
 - Spelling:
-   - Use artefact instead of artifact
-   - Use behaviour instead of behavior
-   - Refer to "#" as hash sign, not number sign
+   - Use artefact instead of artifact.
+   - Use behaviour instead of behavior.
+   - Refer to "#" as hash sign, not number sign.
+   - Use full stop instead of period.
+   - Use license as a verb and licence as a noun.
+- For standards-related text.
+   - Use shall instead of must.
+   - Use may instead of can.
+- List items
+   - Do not use punctuation for a list item unless it is a sentence.
 
-### Line length
-Limit lines in a markdown file to 78 character lines to facilitate more 
-accurate change tracking
+## Markdown text
+- Use the GitHub dialect - see https://docs.github.com/en/get-started/writing-on-github and https://github.github.com/gfm/ for reference.
+- Limit lines in a markdown file to 78 character lines to facilitate more 
+accurate change tracking.
 
 ### Code style
 - When to use code style (or not)
