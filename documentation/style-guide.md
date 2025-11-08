@@ -38,7 +38,7 @@ PURL (first edition submitted to ECMA for December 2025 approval) or VERS
 ## Other terminology
 
 ### Package names
-- Use “npm package”, not “NPM”, because since “npm” is the package manager,
+- Use “npm package”, not “NPM”, because “npm” is the package manager,
 not the name of a package. 
 - Use "Ruby gems" not RubyGems” because RubyGems is the name of a package
 distribution service, not the name of a package
