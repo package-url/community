@@ -70,13 +70,12 @@ referring to code that uses all-caps.
 - Don't use camel case, except in official names or when referring to code 
 that uses camel case.
 
-## Use sentence case in headings, lists and tables
+## Use sentence case in headings and tables
 
 In document titles and headings, use sentence case. That is, capitalize only 
 the first word in the title, the first word in a subheading after a colon, or 
 any proper nouns or other terms that are always capitalized a certain way.
 - Don't put a period at the end of a title or heading.
-- Use sentence case for items in a list.
 - Use sentence case for all the elements in a table: contents, headings, 
 labels, and captions.
 
@@ -111,7 +110,8 @@ for PURL or VERS.
    - Use shall instead of must.
    - Use may instead of can.
 - List items
-   - Do not use punctuation for a list item unless it is a sentence.
+   - Do not use initial caps or punctuation for a list item unless it is a 
+   sentence.
 
 ## Markdown text
 - Use the GitHub dialect - see https://docs.github.com/en/get-started/writing-on-github and https://github.github.com/gfm/ for reference.
