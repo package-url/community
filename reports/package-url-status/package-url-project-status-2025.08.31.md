@@ -18,7 +18,7 @@
 
 ### **PURL in the News**
 
-* PURL was merged into the CVE schemaL https://github.com/CVEProject/cve-schema/pull/407
+* PURL was merged into the CVE schema: https://github.com/CVEProject/cve-schema/pull/407
 * We delivered a PURL presentation at the Linux Foundation OSS Summit in Amsterdam, jointly with Bloomberg
 * We presented PURL to the ISO C++ Standard's ecosystem evolution working group
 * We delivered a PURL presentation to the CVE QWG on PURL Validation
