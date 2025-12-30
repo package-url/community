@@ -9,10 +9,9 @@ projects. It specifically applies to documentation for:
 It is also recommended for documentation for any other project under the 
 `package-url` GitHub organization.
 
-
 ## Package-URL Terminology
-- PURL
-- VERS
+- PURL - use PURL all-caps for any general reference including cases such as PURL **type**
+- VERS - use VERS all-caps for any general reference
 - Package-URL
 
 ## Active voice
@@ -22,7 +21,8 @@ which the grammatical subject of the sentence is the person or thing being
 acted upon), although there are exceptions. Make clear who's performing the 
 action.
 
-In passive voice, it's easy to neglect to indicate who or what is performing a particular action. In this kind of construction, it's often hard for readers 
+In passive voice, it's easy to neglect to indicate who or what is performing a 
+particular action. In this kind of construction, it's often hard for readers 
 to figure out who's supposed to do something (such as the reader, the 
 computer, the server, an end user, or a visitor to a web page).
 
@@ -52,7 +52,8 @@ labels,  and captions.
 
 ## Diction
 
-When possible, avoid using -ing verb forms as the first word in any heading or  title. An -ing verb form is a present participle or gerund. These verb forms
+When possible, avoid using -ing verb forms as the first word in any heading or  title. 
+An -ing verb form is a present participle or gerund. These verb forms
 are inconsistently translated when they're used as the first word in a title,
 and they increase character count in limited spaces.
 
@@ -60,15 +61,14 @@ and they increase character count in limited spaces.
 - A vs the vs nothing
 - GB English for Ecma standard documents
 
-
 ## Line length
 Limit lines in a markdown file to 78 character lines to facilitate more 
 accurate change tracking
 
-
-## Code style
-- When to use code style (or not)
-
+## Code style (or not)
+- Only use code style formatting when you are referring to a codebase file or folder
+- Use bold when you are referring to a field such as PURL **type**
+- Use single quotes when you are referring to a field value
 
 ## URL references
 - How to refer to URLs - many options
