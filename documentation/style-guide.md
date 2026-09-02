@@ -11,9 +11,9 @@ It is also recommended for documentation for any other project under the
 
 ## Package-URL Terminology
 - PURL - use PURL all-caps for any general reference including cases such as PURL **type**
-- VERS - use VERS all-caps for any general reference
+- VERS - use VERS all-caps for any general reference including cases such as VERS **type**
 - Package-URL - primary use should be to be to refer the Package-URL organization
-  on GitHub which 
+  on GitHub
 
 ## Active voice
 In general, use active voice (in which the grammatical subject of the sentence
@@ -65,11 +65,12 @@ any proper nouns or other terms that are always capitalized a certain way.
     required by a standard.
   - Do not use "canonical" or "canonical form" in a standards document
     because standards content is canonical by definition. Use of "canonical"
-    in other documentation shall only refer to format/form that conforms
+    in other documentation shall only refer to format or behaviour that conforms
     to a standard without any normalization.
 - Use GB English for Ecma standard documents. Some examples
   - behaviour
-  - normalization
+  - normalization (see Section 6.1 Language) of [Ecma Directives: rules for editing and distribution](https://docs.google.com/document/d/1OpMkK5TTyEC38fij-353EOABpkYp_9Lm/edit)
+  - 
  
 ## Line length
 Limit lines in a markdown file to 78 character lines to facilitate more 
@@ -80,5 +81,6 @@ accurate change tracking.
 - Use bold when you are referring to a field such as PURL **type**
 - Use single quotes when you are referring to a field value
 
-## URL references
-- How to refer to URLs - many options
+## References
+- Draft (Feb 2026) of [Ecma Directives: rules for editing and distribution](https://docs.google.com/document/d/1OpMkK5TTyEC38fij-353EOABpkYp_9Lm/edit) - this a copy on the AboutCode package-url shared drive
+- Ecmarkup: https://tc39.es/ecmarkup/
