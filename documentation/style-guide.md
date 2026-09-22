@@ -70,7 +70,7 @@ any proper nouns or other terms that are always capitalized a certain way.
 - Use GB English for Ecma standard documents. Some examples
   - behaviour
   - normalization (see Section 6.1 Language) of [Ecma Directives: rules for editing and distribution](https://docs.google.com/document/d/1OpMkK5TTyEC38fij-353EOABpkYp_9Lm/edit)
-  - 
+  - licence for the noun form, use license only for the verb form
  
 ## Line length
 Limit lines in a markdown file to 78 character lines to facilitate more 
