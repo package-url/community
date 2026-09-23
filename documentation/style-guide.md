@@ -80,8 +80,11 @@ accurate change tracking.
 
 ## Code style (or not)
 - Use code style (backticks) formatting when you are referring to a codebase file or folder
-- Use code style when you are referring to a field such as PURL `type`(
-    - Note (Sept 2026) that we have been using bold instead of code style in most documents because of a misunderstanding about Ecma style.
+- Use code style when you are referring to a field such as PURL `type`
+    - **NB**: this formatting may not apply for:
+      - Standards sections like Scope (Clause 1) where PURL component names have not yet been defined as terminology.
+      - In tables or in special sections like Clause 6.
+    - **NB** As of Sept 2026 we have been using bold instead of code style in most documents because of a misunderstanding about Ecma style.
       When you view ECMA-427 the text in code style is very hard to distinguish from bold. The difference is sans serif for code style vs.
       serif for bold, but this is very hard to see with individual words in the middle of text where both are the same font/size.
 - Use single quotes when you are referring to a field value
