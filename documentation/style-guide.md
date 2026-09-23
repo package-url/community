@@ -86,6 +86,11 @@ accurate change tracking.
       serif for bold, but this is very hard to see with individual words in the middle of text where both are the same font/size.
 - Use single quotes when you are referring to a field value
 
+## Punctuation for list items
+- If every item is a complete sentence, then end each item with a full stop.
+- If every item is a sentence fragment, the use a semicolon after each item except the last, which gets a full stop.
+- If every item a measurement or other short text, then use no punctuation.
+
 ## References
 - Draft (Feb 2026) of [Ecma Directives: rules for editing and distribution](https://docs.google.com/document/d/1OpMkK5TTyEC38fij-353EOABpkYp_9Lm/edit) - this a copy on the AboutCode package-url shared drive
 - Ecmarkup: https://tc39.es/ecmarkup/
