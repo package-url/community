@@ -76,9 +76,14 @@ any proper nouns or other terms that are always capitalized a certain way.
 Limit lines in a markdown file to 78 character lines to facilitate more 
 accurate change tracking.
 
+# Ecma style for standards
+
 ## Code style (or not)
-- Only use code style formatting when you are referring to a codebase file or folder
-- Use bold when you are referring to a field such as PURL **type**
+- Use code style (backticks) formatting when you are referring to a codebase file or folder
+- Use code style when you are referring to a field such as PURL `type`(
+    - Note (Sept 2026) that we have been using bold instead of code style in most documents because of a misunderstanding about Ecma style.
+      When you view ECMA-427 the text in code style is very hard to distinguish from bold. The difference is sans serif for code style vs.
+      serif for bold, but this is very hard to see with individual words in the middle of text where both are the same font/size.
 - Use single quotes when you are referring to a field value
 
 ## References
