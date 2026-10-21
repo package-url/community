@@ -18,8 +18,8 @@ principle of clear technical documentation and also to make the text easier for
 non-native English speakers to understand or translate.
 
 ## Package-URL terminology
-- PURL - use PURL all-caps for any general reference including cases such as PURL **type**
-- VERS - use VERS all-caps for any general reference including cases such as VERS **type**
+- PURL - use PURL all-caps for any general reference including cases such as PURL `type`
+- VERS - use VERS all-caps for any general reference including cases such as VERS `type`
 - Package-URL - primary use should be to be to refer the Package-URL organization
   on GitHub
 
