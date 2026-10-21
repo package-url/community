@@ -3,13 +3,21 @@
 This document provides guidance for writing documentation for Package-URL 
 projects. It specifically applies to documentation for:
 - The PURL specification from `package-url/purl-spec`,
-- The VERS specification from `package-url/vers-spec` and
+- The VERS specification from `package-url/vers-spec,` and
 - The Package-URL website from `package-url/packageurl.org`.
 
 It is also recommended for documentation for any other project under the 
 `package-url` GitHub organization.
 
-## Package-URL Terminology
+A key principle of this style guide is to align with "Ecma style" because much of our
+documentation may eventually be added to ECMA-427 or ECMA-xxx-VERS. See the end of
+this document and the Diction section for some specific points about Ecma style.
+
+Another key principle is to keep the grammar and diction simple following the general
+principle of clear technical documentation and also to make the text easier for
+non-native English speakers to understand or translate.
+
+## Package-URL terminology
 - PURL - use PURL all-caps for any general reference including cases such as PURL **type**
 - VERS - use VERS all-caps for any general reference including cases such as VERS **type**
 - Package-URL - primary use should be to be to refer the Package-URL organization
@@ -26,6 +34,13 @@ particular action. In passive voice, it is often hard for readers
 to figure out who is supposed to do something (such as the reader, the 
 computer, the server, an end user, or a visitor to a web page).
 
+## Use linear sentence structure
+- Use linear sentence structure (Subject-Verb-Object) with a strong preference for
+  short single topic sentences.
+- Avoid concatenating sentences with semi-colons, colons and conjunctions. Sentences
+  in a paragraph are inherently connected by their sequence.
+- Avoid starting sentences with an introductory clause whenever possible. 
+
 ## Capitalization
 - Don't use unnecessary capitalization; before you capitalize a word, think 
   about why it should be capitalized.
@@ -37,7 +52,9 @@ computer, the server, an end user, or a visitor to a web page).
 - Don't use all-uppercase, except in the following contexts: in official 
   names, in abbreviations that are always written in all-caps, or when 
   referring to code that uses all-caps.
-- Don't use camel case, except in official names or when referring to code 
+- Don't use camel case except in official names or when referring to code 
+  artifacts with a name in camel case.
+- Avoid kebab case except except in official names or when referring to code 
   artifacts with a name in camel case.
 
 ## Use sentence case in headings, lists and tables
@@ -51,8 +68,8 @@ any proper nouns or other terms that are always capitalized a certain way.
   labels, and captions.
 
 ## Diction
-
-- Avoid unnecessary adjectives or adverbs
+- Avoid unnecessary adjectives or adverbs, especially adverbs.
+- Prefer singular over plural.
 - Avoid using -ing verb forms as the first word in any heading or title. 
   An -ing verb form is a present participle or gerund. These verb forms
   are inconsistently translated when they're used as the first word in a title,
@@ -64,13 +81,14 @@ any proper nouns or other terms that are always capitalized a certain way.
   - Use "should" for format or behaviour that is recommended, but not
     required by a standard.
   - Do not use "canonical" or "canonical form" in a standards document
-    because standards content is canonical by definition. Use of "canonical"
-    in other documentation shall only refer to format or behaviour that conforms
+    because standards content is canonical by definition. Use "valid" instead
+    of "canonical" in most cases. Use of "canonical" in other non-standards
+    documentation shall only refer to format or behaviour that conforms
     to a standard without any normalization.
 - Use GB English for Ecma standard documents. Some examples
-  - behaviour
-  - normalization (see Section 6.1 Language) of [Ecma Directives: rules for editing and distribution](https://docs.google.com/document/d/1OpMkK5TTyEC38fij-353EOABpkYp_9Lm/edit)
-  - licence for the noun form, use license only for the verb form
+  - "behaviour"
+  - "normalization" (see Section 6.1 Language) of [Ecma Directives: rules for editing and distribution](https://docs.google.com/document/d/1OpMkK5TTyEC38fij-353EOABpkYp_9Lm/edit)
+  - Use "licence" for the noun form and use "license" only for the verb form
  
 ## Line length
 Limit lines in a markdown file to 78 character lines to facilitate more 
@@ -79,15 +97,20 @@ accurate change tracking.
 # Ecma style for standards
 
 ## Code style (or not)
-- Use code style (backticks) formatting when you are referring to a codebase file or folder
-- Use code style when you are referring to a field such as PURL `type`
+- Use code style (backticks) formatting when you are referring to a codebase file or folder.
+- Use code style when you are referring to a field such as PURL `type`.
     - **NB**: this formatting may not apply for:
-      - Standards sections like Scope (Clause 1) where PURL component names have not yet been defined as terminology.
+      - Standards sections like Scope (Clause 1) where PURL component names have not
+        yet been defined as terminology.
       - In tables or in special sections like Clause 6.
-    - **NB** As of Sept 2026 we have been using bold instead of code style in most documents because of a misunderstanding about Ecma style.
-      When you view ECMA-427 the text in code style is very hard to distinguish from bold. The difference is sans serif for code style vs.
-      serif for bold, but this is very hard to see with individual words in the middle of text where both are the same font/size.
-- Use single quotes when you are referring to a field value
+    - **NB** Prior to Sept 2026 we were using bold instead of code style in most
+      documents because of a misunderstanding about Ecma style. When you view ECMA-427
+      the text in code style is very hard to distinguish from bold. The difference is
+      sans serif for code style vs. serif for bold, but this is very hard to see with
+      individual words in the middle of text where both are the same font/size.
+- Use single quotes when you are referring to a field value.
+- Use bold or double quotes for defined terms within the context of a document, but
+  not for terms that are generally defined like PURL `type`. 
 
 ## Punctuation for list items
 - If every item is a complete sentence, then end each item with a full stop.
