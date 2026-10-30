@@ -117,7 +117,7 @@ any proper nouns or other terms that are always capitalized a certain way.
    - Use "normalize" or "normalization" instead of "normalise" or "
      "normalisation". The general rule for the "z" vs "s" cases like this
      is that you use the "z" spelling for words with a Greek origin. See also
-     Section 6.1 Language) of [Ecma Directives: rules for editing and distribution](https://docs.google.com/document/d/1OpMkK5TTyEC38fij-353EOABpkYp_9Lm/edit).
+     Section 6.1 Language) of [Ecma Directives: rules for editing and distribution](https://github.com/package-url/community/blob/main/documentation/Ecma_directives_february_2026.pdf).
    - Refer to "#" as hash sign, not number sign.
    - Use full stop instead of period.
 
@@ -178,5 +178,12 @@ words are the same size.
   sentence.
 
 ## References
-- Draft (Feb 2026) of [Ecma Directives: rules for editing and distribution](https://docs.google.com/document/d/1OpMkK5TTyEC38fij-353EOABpkYp_9Lm/edit) - this a copy on the AboutCode package-url shared drive
-- Ecmarkup: https://tc39.es/ecmarkup/
+- [Ecma Directives: rules for editing and distribution](https://github.com/package-url/community/blob/main/documentation/Ecma_directives_february_2026.pdf).
+  This is a Draft from Feb 2026 that documents standards and conventions for
+  Ecma standards and other documents.
+- [Ecmarkup](https://tc39.es/ecmarkup/) documents Ecmarkup semantics. Ecmarkup
+  is the tool used to create Ecma standards documents.
+- [Google Markdown style guide](https://google.github.io/styleguide/docguide/style.html)
+  documents best practices for the GitHub Markdown dialect.
+- [ISO Terminology](https://github.com/package-url/community/blob/main/documentation/ISO-terminology.md)
+  documents ISO/Ecma terminology for requirements vs. recommendations.
