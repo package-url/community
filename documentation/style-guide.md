@@ -119,7 +119,7 @@ any proper nouns or other terms that are always capitalized a certain way.
      is that you use the "z" spelling for words with a Greek origin. See also
      Section 6.1 Language) of [Ecma Directives: rules for editing and distribution](https://github.com/package-url/community/blob/main/documentation/Ecma_directives_february_2026.pdf).
    - Refer to "#" as hash sign, not number sign.
-   - Use full stop instead of period.
+   - Use "full stop" instead of "period".
 
 ### Package names
 - Use "npm package", not "NPM", because "npm" is the package manager,
@@ -135,7 +135,7 @@ any proper nouns or other terms that are always capitalized a certain way.
 
 # Ecma style for standards
 
-## Terminology
+## Ecma terminology
 - ECMA is an acronym for the European Computer Manufacturers Association.
 - ECMA was renamed to Ecma International in 1994.
 - Ecma is an abbreviation for Ecma International.
@@ -153,7 +153,11 @@ levels.
 
 ## Code style (or not)
 - Use code style (backticks) formatting when you are referring to a codebase
-  file or folder or a field or property such as PURL `type`.
+  file or folder or a field or property such as PURL `type`. For plural cases
+  like a reference to multiple PURL types use code style for the word, e.g.,
+  PURL `types` even though `types` is not a property name. The alternative
+  style of `type`s is too awkward. The same point applies for `qualifers`and
+  `qualifer` (in reverse).
   This formatting may not apply in some cases within an Ecma document:
     - in clauses like Scope (Clause 1) where PURL component names
       have not yet been defined as terminology
@@ -173,7 +177,7 @@ words are the same size.
 - If every item is a complete sentence, then end each item with a full stop.
 - If every item is a sentence fragment, then use a semicolon after each item
   except the last, which gets a full stop.
-- If every item a measurement or other short text, then use no punctuation.
+- If every item is a measurement or other short text, then use no punctuation.
 - Do not use initial caps or punctuation for a list item unless it is a
   sentence.
 
