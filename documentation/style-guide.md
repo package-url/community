@@ -91,7 +91,6 @@ any proper nouns or other terms that are always capitalized a certain way.
   the noun names the only one (or one) of a kind. Example: New York is the
   largest city in the United States (only one city can be "the largest").
 
-
 ## Diction
 - Avoid unnecessary adjectives or adverbs, especially adverbs.
 - Prefer singular verbs over plural.
@@ -130,7 +129,7 @@ any proper nouns or other terms that are always capitalized a certain way.
 ## Markdown text
 - Use the GitHub dialect - see https://docs.github.com/en/get-started/writing-on-github
   and https://github.github.com/gfm/ for reference.
-- Limit lines in a markdown file to 78 character lines to facilitate more
+- Limit lines in a Markdown file to 78 character lines to facilitate more
   accurate change tracking.
 
 # Ecma style for standards
@@ -149,7 +148,8 @@ any proper nouns or other terms that are always capitalized a certain way.
 The text of a document may be sub-divided in clauses, which may again be
 sub-divided. It is recommended that the number of levels not exceed 3, even
 if the text processing templates developed in Ecma allow for a maximum of 5
-levels.
+levels. Only the top-level clauses are referenced as a Clause - subsections
+are normally referenced by the subsection number.
 
 ## Code style (or not)
 - Use code style (backticks) formatting when you are referring to a codebase
@@ -166,12 +166,25 @@ levels.
 - Use bold or double quotes for defined terms within the context of a
   document, but not for terms that are generally defined like PURL `type`.
 
-*NB** Prior to Sept 2026 we were using bold instead of code style in most
-documents because of a misunderstanding about Ecma style. When you view
-ECMA-427 the text in code style is very hard to distinguish from bold. The
-actual difference is sans serif for code style vs. serif for bold, but this
-is very hard to see with individual words in the middle of text where the
-words are the same size.
+## Defined terms (*italics*)
+- For defined terms within an Ecma document like ECMA-427, the Ecmarkup
+  convention is to use ` <dfn>` element which will display the defined
+  term in *italics*. Subsequent references will be automatically linked
+  to this definition unless you suppress that behaviour with the `emu-not-ref`
+  element. See also https://tc39.es/ecmarkup/#definitions.
+- This means that you should use *italics* formatting for a defined term
+  in Markdown documents.
+
+## Double quotes
+- Use double quotes for actual quoted text from a document.
+- Use double quotes sparingly for formatting a work or phrase. The most
+  common use is to emphasize a word that you want to highlight from other
+  text and that has a general public meaning.
+- Do not use double quotes for defined terms (see above).
+
+## Bold formatting
+- Use **bold** formatting, sparingly, for emphasis.
+- Remember that Markdown headings are automatically in bold format.
 
 ## Punctuation for list items
 - If every item is a complete sentence, then end each item with a full stop.
@@ -191,3 +204,11 @@ words are the same size.
   documents best practices for the GitHub Markdown dialect.
 - [ISO Terminology](https://github.com/package-url/community/blob/main/documentation/ISO-terminology.md)
   documents ISO/Ecma terminology for requirements vs. recommendations.
+
+**NB** Prior to Sept 2026 we were using bold instead of code style in most
+documents because of a misunderstanding about Ecma style. When you view
+ECMA-427 the text in code style is very hard to distinguish from bold. The
+actual difference is sans serif for code style vs. serif for bold, but this
+is very hard to see with individual words in the middle of text where the
+words are the same size.
+
