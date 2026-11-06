@@ -69,7 +69,7 @@ computer, the server, an end user, or a visitor to a web page).
   - when referring to code that is written in all-caps
 - Don't use camel case except in official names or when referring to code
   artifacts with a name in camel case.
-- Avoid kebab case except except in official names or when referring to code
+- Avoid kebab case except in official names or when referring to code
   artifacts with a name in kebab case.
 
 ## Use sentence case in headings, lists and tables
@@ -90,7 +90,6 @@ any proper nouns or other terms that are always capitalized a certain way.
 - Use "the" with any noun when the meaning is specific; for example, when
   the noun names the only one (or one) of a kind. Example: New York is the
   largest city in the United States (only one city can be "the largest").
-
 
 ## Diction
 - Avoid unnecessary adjectives or adverbs, especially adverbs.
@@ -113,24 +112,24 @@ any proper nouns or other terms that are always capitalized a certain way.
 - Use GB English for Ecma standard documents. Some examples are:
    - Use "artefact" instead of "artifact".
    - Use "behaviour" instead of "behavior".
-   - Use "licence" as a noun "license" as a verb.
-   - Use "normalize" or "normalization" instead of "normalise" or "
+   - Use "licence" as a noun and use "license" as a verb.
+   - Use "normalize" or "normalization" instead of "normalise" or
      "normalisation". The general rule for the "z" vs "s" cases like this
      is that you use the "z" spelling for words with a Greek origin. See also
-     Section 6.1 Language) of [Ecma Directives: rules for editing and distribution](https://github.com/package-url/community/blob/main/documentation/Ecma_directives_february_2026.pdf).
+     Section 6.1 Language of [Ecma Directives: rules for editing and distribution](https://github.com/package-url/community/blob/main/documentation/Ecma_directives_february_2026.pdf).
    - Refer to "#" as hash sign, not number sign.
    - Use "full stop" instead of "period".
 
 ### Package names
 - Use "npm package", not "NPM", because "npm" is the package manager,
   not the name of a package.
-- Use "Ruby gems" not "RubyGems" because RubyGems is the name of a package
+- Use "Ruby gems", not "RubyGems", because RubyGems is the name of a package
   distribution service, not the name of a package.
 
 ## Markdown text
 - Use the GitHub dialect - see https://docs.github.com/en/get-started/writing-on-github
   and https://github.github.com/gfm/ for reference.
-- Limit lines in a markdown file to 78 character lines to facilitate more
+- Limit lines in a Markdown file to 78-character lines to facilitate more
   accurate change tracking.
 
 # Ecma style for standards
@@ -142,14 +141,15 @@ any proper nouns or other terms that are always capitalized a certain way.
 - Use Ecma International when referring to the organization specifically.
 - Use Ecma for most references, such as "Ecma standard" or "Ecma Technical
   Committee".
-- Use ECMA only for referring to a standards document such as ECMA-4247 for
+- Use ECMA only for referring to a standards document such as ECMA-427 for
   PURL.
 
 ### Ecma document formatting
 The text of a document may be sub-divided in clauses, which may again be
 sub-divided. It is recommended that the number of levels not exceed 3, even
 if the text processing templates developed in Ecma allow for a maximum of 5
-levels.
+levels. Only the top-level clauses are referenced as a Clause - subsections
+are normally referenced by the subsection number.
 
 ## Code style (or not)
 - Use code style (backticks) formatting when you are referring to a codebase
@@ -166,12 +166,25 @@ levels.
 - Use bold or double quotes for defined terms within the context of a
   document, but not for terms that are generally defined like PURL `type`.
 
-*NB** Prior to Sept 2026 we were using bold instead of code style in most
-documents because of a misunderstanding about Ecma style. When you view
-ECMA-427 the text in code style is very hard to distinguish from bold. The
-actual difference is sans serif for code style vs. serif for bold, but this
-is very hard to see with individual words in the middle of text where the
-words are the same size.
+## Defined terms (*italics*)
+- For defined terms within an Ecma document like ECMA-427, the Ecmarkup
+  convention is to use `<dfn>` element which will display the defined
+  term in *italics*. Subsequent references will be automatically linked
+  to this definition unless you suppress that behaviour with the `<emu-not-ref>`
+  element. See also https://tc39.es/ecmarkup/#definitions.
+- This means that you should use *italics* formatting for a defined term
+  in Markdown documents.
+
+## Double quotes
+- Use double quotes for actual quoted text from a document.
+- Use double quotes sparingly for formatting a work or phrase. The most
+  common use is to emphasize a word that you want to highlight from other
+  text and that has a general public meaning.
+- Do not use double quotes for defined terms (see above).
+
+## Bold formatting
+- Use **bold**, sparingly, for emphasis.
+- Remember that Markdown headings are automatically in bold format.
 
 ## Punctuation for list items
 - If every item is a complete sentence, then end each item with a full stop.
@@ -191,3 +204,11 @@ words are the same size.
   documents best practices for the GitHub Markdown dialect.
 - [ISO Terminology](https://github.com/package-url/community/blob/main/documentation/ISO-terminology.md)
   documents ISO/Ecma terminology for requirements vs. recommendations.
+
+**NB** Prior to Sept 2026 we were using bold instead of code style in most
+documents because of a misunderstanding about Ecma style. When you view
+ECMA-427 the text in code style is very hard to distinguish from bold. The
+actual difference is sans serif for code style vs. serif for bold, but this
+is very hard to see with individual words in the middle of text where the
+words are the same size.
+
