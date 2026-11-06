@@ -69,7 +69,7 @@ computer, the server, an end user, or a visitor to a web page).
   - when referring to code that is written in all-caps
 - Don't use camel case except in official names or when referring to code
   artifacts with a name in camel case.
-- Avoid kebab case except except in official names or when referring to code
+- Avoid kebab case except in official names or when referring to code
   artifacts with a name in kebab case.
 
 ## Use sentence case in headings, lists and tables
@@ -112,24 +112,24 @@ any proper nouns or other terms that are always capitalized a certain way.
 - Use GB English for Ecma standard documents. Some examples are:
    - Use "artefact" instead of "artifact".
    - Use "behaviour" instead of "behavior".
-   - Use "licence" as a noun "license" as a verb.
-   - Use "normalize" or "normalization" instead of "normalise" or "
+   - Use "licence" as a noun and use "license" as a verb.
+   - Use "normalize" or "normalization" instead of "normalise" or
      "normalisation". The general rule for the "z" vs "s" cases like this
      is that you use the "z" spelling for words with a Greek origin. See also
-     Section 6.1 Language) of [Ecma Directives: rules for editing and distribution](https://github.com/package-url/community/blob/main/documentation/Ecma_directives_february_2026.pdf).
+     Section 6.1 Language of [Ecma Directives: rules for editing and distribution](https://github.com/package-url/community/blob/main/documentation/Ecma_directives_february_2026.pdf).
    - Refer to "#" as hash sign, not number sign.
    - Use "full stop" instead of "period".
 
 ### Package names
 - Use "npm package", not "NPM", because "npm" is the package manager,
   not the name of a package.
-- Use "Ruby gems" not "RubyGems" because RubyGems is the name of a package
+- Use "Ruby gems", not "RubyGems", because RubyGems is the name of a package
   distribution service, not the name of a package.
 
 ## Markdown text
 - Use the GitHub dialect - see https://docs.github.com/en/get-started/writing-on-github
   and https://github.github.com/gfm/ for reference.
-- Limit lines in a Markdown file to 78 character lines to facilitate more
+- Limit lines in a Markdown file to 78-character lines to facilitate more
   accurate change tracking.
 
 # Ecma style for standards
@@ -141,7 +141,7 @@ any proper nouns or other terms that are always capitalized a certain way.
 - Use Ecma International when referring to the organization specifically.
 - Use Ecma for most references, such as "Ecma standard" or "Ecma Technical
   Committee".
-- Use ECMA only for referring to a standards document such as ECMA-4247 for
+- Use ECMA only for referring to a standards document such as ECMA-427 for
   PURL.
 
 ### Ecma document formatting
@@ -168,9 +168,9 @@ are normally referenced by the subsection number.
 
 ## Defined terms (*italics*)
 - For defined terms within an Ecma document like ECMA-427, the Ecmarkup
-  convention is to use ` <dfn>` element which will display the defined
+  convention is to use `<dfn>` element which will display the defined
   term in *italics*. Subsequent references will be automatically linked
-  to this definition unless you suppress that behaviour with the `emu-not-ref`
+  to this definition unless you suppress that behaviour with the `<emu-not-ref>`
   element. See also https://tc39.es/ecmarkup/#definitions.
 - This means that you should use *italics* formatting for a defined term
   in Markdown documents.
@@ -183,7 +183,7 @@ are normally referenced by the subsection number.
 - Do not use double quotes for defined terms (see above).
 
 ## Bold formatting
-- Use **bold** formatting, sparingly, for emphasis.
+- Use **bold**, sparingly, for emphasis.
 - Remember that Markdown headings are automatically in bold format.
 
 ## Punctuation for list items
